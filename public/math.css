@@ -1,0 +1,90 @@
+html{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+font-family: Arial, sans-serif;
+background-color: #f4f4f4;
+background-image: url("imgs/gipove.png");
+background-size: cover;
+background-repeat: no-repeat;
+width: 100%;
+height: 100%;
+margin: 0px;
+padding: 0px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+#quiz-container {
+width: 600px;
+margin: 50px auto;
+background-color: #fff;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.question {
+font-size: 18px;
+margin-bottom: 10px;
+}
+
+.options {
+list-style-type: none;
+padding: 0;
+}
+
+.option {
+margin-bottom: 10px;
+}
+.play-button {
+    width: 150px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 12px;
+    color:black;
+    border-radius: 20px;
+    border: black 2px solid;
+    transition: background-color 0.7s ease;
+    background-color: white;
+}  
+.play-button:hover {
+    background-color: blue;
+    color:white; 
+    cursor: pointer;
+    border-color: white;
+}
+.son1-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-style: italic;
+    font-size: 80px;
+    margin: 0px;
+    padding: 0px;
+    height:170px;
+    font-weight: bold;
+    animation: shake 3s infinite ease-in-out;
+}
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    75% { transform: translateX(5px); }
+    100% { transform: translateX(0); }
+}

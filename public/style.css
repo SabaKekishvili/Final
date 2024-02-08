@@ -1,0 +1,125 @@
+html{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.parent{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.background{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-image: url("imgs/gipove.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-repeat: no-repeat;
+}
+.bg-son1{
+    width: 45%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.bg-left{
+    width: 45%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.bg-left h1 {
+    height: 170px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+.bg-left p {
+    height: 170px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.son1-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-style: italic;
+    font-size: 80px;
+    margin: 0px;
+    padding: 0px;
+    height:170px;
+    font-weight: bold;
+    animation: shake 3s infinite ease-in-out;
+}
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    75% { transform: translateX(5px); }
+    100% { transform: translateX(0); }
+}
+.son1-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 170px;
+}
+.play-button {
+    width: 150px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    border-radius: 20px;
+    border: white 2px solid;
+    transition: background-color 0.7s ease;
+}
+.play-button a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+  
+.play-button:hover {
+    background-color: white;
+    color:black; 
+    width: 155px;
+    height: 60px;
+}
